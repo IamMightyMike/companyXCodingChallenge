@@ -74,3 +74,26 @@ Vanity has the following parameters:
  - Vanity codes can appear anywhere in the number, including country or area codes.
  - Phone numbers will be in the E.164 format i.e. a plus (+) followed by up to 15 digits (0-9).
 
+
+## K-Subarrays
+
+A *k-subarray* of an array is defined as follows:
+
+ - It is a subarray, i.e. made of contiguous elements from the original array.
+ - The sum of the subarray elements must be evenly divisible by k, i.e. sum mod k = 0
+
+Given an array of integers, determine the number of k-subarrays it contains. For example, given *k=5* and the array *nums=[5,10,11,9,5]*, its k-subarrays would be: *{5}, {5,10}, {5,10,11,9}, {5,10,11,9,5}, {10}, {10,11,9}, {10,11,9,5}, {11,9}, {11,9,5}, {5}*
+
+**Function Description**
+Complete the function *kSub*.
+The function must return a long integer representing the number of *k-subarrays* in the array.
+*kSub* has the following parameters:
+
+ - k: the integer divisor of a *k-subarray*
+ - nums[nums[0],... nums[n-1]]: an array of integers
+
+
+## Bonus Stage: K-subsets
+
+When I took the test I missread the requirements for the *k-subarrays* exercise and attempted to evaluate is subsets rather than its subarrays. A subset would be a bunch of not necesarily contiguous elements from the original array picked in any order. 
+Needless to say, I failed miserably to solve this variant of the exercise, as it is a much tougher problem. Anyhow, I thought it would be fun to solve it and share the solution :)
