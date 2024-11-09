@@ -2,7 +2,9 @@
 
 In 2020 I applied for a Software Engineer position at certain tech company and I was faced with this coding challenge.
 It consisted of four leetcode-styled exercised.
-I have created a bunch of unit tests as well.
+
+I figured that I´d solve them four years later and share the solutions. 
+I have created a bunch of unit tests as well that enable the functions to be invoked and tested.
 
 
 
