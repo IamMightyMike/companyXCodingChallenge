@@ -123,7 +123,30 @@ public class CodingChallengeTests {
         k = 5;
         assertEquals(10, KSubarrays.kSub(k,numberList));
 
+    }
 
+    @Test
+    public void testKSubsets()throws Exception {
+
+        List<Integer> numberList = Arrays.asList(5);
+        int k = 5;
+        assertEquals(1, kSubsets.kSub(k, numberList));
+
+        numberList = Arrays.asList(5, 11);
+        k = 5;
+        assertEquals(1, kSubsets.kSub(k, numberList));
+
+        numberList = Arrays.asList(5, 10);
+        k = 5;
+        assertEquals(3, kSubsets.kSub(k, numberList));
+
+        numberList = Arrays.asList(5, 11, 10);
+        k = 5;
+        assertEquals(3, kSubsets.kSub(k, numberList));
+
+        numberList = Arrays.asList(5,10,15,11,9);
+        k = 5;
+        assertEquals(15, kSubsets.kSub(k,numberList));
     }
 
 
