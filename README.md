@@ -75,7 +75,7 @@ Vanity has the following parameters:
  - Phone numbers will be in the E.164 format i.e. a plus (+) followed by up to 15 digits (0-9).
 
 
-## K-Subarrays
+## 4. K-Subarrays
 
 A *k-subarray* of an array is defined as follows:
 
